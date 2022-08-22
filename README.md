@@ -1,6 +1,6 @@
 # Error Stack Derive
 
-[https://docs.rs/crate/error-stack-derive/latest/error-stack-derive](![badge](https://img.shields.io/docsrs/error-stack-derive?label=documentation&logo=rust&style=flat-square))
+[![badge](https://img.shields.io/docsrs/error-stack-derive?label=documentation&logo=rust&style=flat-square)](https://docs.rs/crate/error-stack-derive/latest/error-stack-derive)
 
 A simple crate with a simple derive macro to make your error handling
 workflow simpler than ever :)
