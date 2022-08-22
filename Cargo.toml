@@ -1,0 +1,22 @@
+[package]
+name = "error-stack-derive"
+version = "0.1.0"
+authors = ["한승민 (<hanseungmin.ar@gmail.com> arHSM)"]
+edition = "2021"
+description = "A derive macro to use in pair with error_stack or generally any error system"
+homepage = "https://catuniversity.pages.dev/"
+repository = "https://github.com/CatUniversity/error_stack_derive/"
+license = "MIT"
+keywords = ["error", "derive", "error_derive", "error_stack"]
+categories = ["accessibility", "config", "data-structures", "development-tools", "value-formatting"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "1.0.99"
+quote = "1.0.21"
+
+[dev-dependencies]
+error-stack = "0.1.1"
+serde_json = "1.0.85"
